@@ -28,7 +28,7 @@ ram ram (
     .clk(clk),
     .wr_en(wr),
     .rd_en(rd),
-    .wr_addr(address + offset),
+    .wr_addr(address),
     .rd_addr(address),
     .din(mic_signal),
     .offset(offset),
